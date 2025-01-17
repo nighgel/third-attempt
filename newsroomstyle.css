@@ -1,20 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0rcap;
+    padding:0cqmax;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif; /* Futuristic font */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-body {
-    background-color: #0d1b2a; /* Deep Blue background */
-    color: #f5f5f5; /* Light text color */
-}
-
-header, footer, .section {
-    background-color: #1b263b; /* Dark Blue for sections */
-    border: 2px solid gold; /* Gold border for sections */
-    padding: 20px;
-    border-radius: 10px; /* Rounded corners */
+header {
+    background: rgb(216, 216, 253);
+    color: black;
+    padding: 10px, 20pc;
 }
 
 nav {
@@ -27,7 +21,6 @@ nav {
 .logo {
     font-size: 70px;
     font-weight: bold;
-    color: gold; /* Gold color for logo */
 }
 
 .navbar {
@@ -37,42 +30,279 @@ nav {
 }
 
 .navbar li a {
-    color: #f5f5f5; /* Light text color */
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
 }
 
 .navbar li a.active,
 .navbar li a:hover {
-    background: #f5f5f5;
-    color: #0d1b2a;
+    background: lightskyblue;
+    color:blue;
     border-radius: 5px;
 }
 
-.section-content {
-    background-color: #1b263b;
-    padding: 20px;
-    border-radius: 10px;
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: lavender;
 }
 
-.section-content h1,
-.section-content h2,
-.section-content h3,
-.section-content h4,
-.section-content h5 {
-    color: gold;
+.section {
+    background-color: lavenderblush;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
 
-.section-content img,
-.section-content video {
+ section .section-content-justin h1{
+    color: blue;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-justin h4{
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-justin h2{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+ section .section-content-justin h3{
+    color: blue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-justin h5{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 10%;
+}
+
+ #justin{
+    height: 650px;
+    width: 950px;
     display: block;
-    margin: 0 auto;
-    border: 2px solid gold;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-newyear h1{
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ section .section-content-newyear h2{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-newyear h4{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ #newyear{
+    height: 600px;
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-feastday h1{
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ section .section-content-feastday h2{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-feastday h4{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 14%;
+    margin-right: 10%;
+}
+
+ #feastday{
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-presscon h1{
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ section .section-content-presscon h2{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-presscon h4{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+ #presscon{
+    height: 400px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-literature h1{
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ section .section-content-literature h2{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-literature h3{
+    color: blue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-literature h4{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+ #literature{
+    height: 500px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section .section-content-beforeliterature h2{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ section .section-content-beforeliterature h4{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ #beforeliterature{
+    height: 500px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 footer {
+    background: lavender;
+    color: black;
+    padding: 20px;
     text-align: center;
+}
+
+.footer-row  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .footer-col h4 {
@@ -95,29 +325,42 @@ footer {
 }
 
 .footer-col ul li a:hover {
-    color: gold;
+    color: darkblue;
+}
+
+.footer-col form {
+    margin-top: 10px;
+}
+
+.footer-col input {
+    padding: 5px;
+    border: none;
 }
 
 .footer-col button {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
-    background: gold;
-    color: #0d1b2a;
+    background: whitesmoke;
+    color: black;
     cursor: pointer;
 }
 
 .footer-col button:hover {
-    background: #f5f5f5;
-    color: #0d1b2a;
+    background: gray;
+}
+#menu-toggle {
+    display: none;
 }
 
-#menu-toggle {
+#menu-toggle:che {
     display: none;
 }
 
 @media (max-width: 768px) {
     .menu-icon {
-        display: block;
+        display: block
     }
+
+
 }
